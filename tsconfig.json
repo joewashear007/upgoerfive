@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "build.ts",
+        "data/wordlist.ts",
+        "es6Mods.ts",
+        "tests/index.ts",
+        "typings/inflection/inflection.d.ts",
+        "typings/moby/moby.d.ts",
+        "typings/node/node.d.ts",
+        "typings/tsd.d.ts",
+        "typings/typing.d.ts",
+        "upgoerfive.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
