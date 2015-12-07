@@ -1,15 +1,25 @@
 {
   "name": "upgoerfive",
-  "version": "1.0.0",
-  "description": "A script to check a string against the (XKCD creator) Randle Monore's 1000 most common words ",
+  "version": "0.1.0",
+  "description": "A script to check/replace a string against the (XKCD creator) Randle Monore's 1000 most common words ",
   "main": "upgoerfive.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Joseph Livecchi",
+  "author": "Joseph Livecchi <joewashear007@gmail.com> (https://github.com/joewashear007/)",
   "license": "MIT",
   "dependencies": {
     "inflection": "^1.8.0",
     "moby": "^1.1.1"
+  },
+  "keywords": [ "up", "goer", "five", "xkcd", "monore", "common", "words" ],
+  "bugs": {
+    "url": "https://github.com/joewashear007/upgoerfive/issues",
+    "email": "joewashear007@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joewashear007/upgoerfive.git"
   }
 }
+
